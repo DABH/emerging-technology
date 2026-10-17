@@ -37,6 +37,14 @@ python3 -m http.server 8765 --bind 127.0.0.1
 Then open http://127.0.0.1:8765/. The pages work as plain files too, but fonts load from
 Google Fonts, so an internet connection is needed for the intended typography.
 
+## Hosting
+
+The site is served by GitHub Pages from the `main` branch of this repository at
+https://emergingtech.dabh.io. The `CNAME` file holds the custom domain and `.nojekyll`
+keeps Pages from running Jekyll. DNS for `dabh.io` is managed at Namecheap, where
+`emergingtech` is a CNAME to `dabh.github.io`. Pushing to `main` redeploys the site
+within a minute or two.
+
 ## Requirements
 
 macOS with Xcode command-line tools (the crop tool is Swift and uses Apple's Vision
