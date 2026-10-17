@@ -1,0 +1,88 @@
+{
+  "_help": "One entry per guest speaker. Title and org are as of the talk. Photos: photos/originals/<slug>.jpg, then run tools/photos.sh and python3 tools/build.py. Set \"featured\": false to keep someone off the homepage face grid. org_order lists the organizations to show first on the homepage.",
+  "org_order": [
+    "AT&T",
+    "Roblox",
+    "Zapata Computing",
+    "Nashville Electric Service",
+    "Brave Capital",
+    "CUREX Capital Advisors",
+    "LUCI",
+    "ChargeNet Stations",
+    "Quantum Art",
+    "Aravir",
+    "The Wond’ry at Vanderbilt"
+  ],
+  "speakers": [
+    {
+      "slug": "ernestine-fu-mak",
+      "name": "Ernestine Fu Mak",
+      "title": "Founder and Managing Partner",
+      "org": "Brave Capital",
+      "field": "Venture capital"
+    },
+    {
+      "slug": "kyle-caruso",
+      "name": "Kyle Caruso",
+      "title": "Program Coordinator, Entrepreneurship",
+      "org": "The Wond’ry at Vanderbilt",
+      "field": "Entrepreneurship"
+    },
+    {
+      "slug": "barry-dean",
+      "name": "Barry Dean",
+      "title": "Co-founder and CEO",
+      "org": "LUCI",
+      "field": "Assistive technology"
+    },
+    {
+      "slug": "jason-lee",
+      "name": "Jason Lee",
+      "title": "Chief Technology Officer",
+      "org": "Aravir",
+      "field": "Space technology"
+    },
+    {
+      "slug": "bryan-pettus",
+      "name": "Bryan Pettus",
+      "title": "Director of Strategy and Innovation",
+      "org": "AT&T",
+      "field": "Telecommunications"
+    },
+    {
+      "slug": "joshua-trantum",
+      "name": "Joshua Trantum",
+      "title": "President and Chief Investment Officer",
+      "org": "CUREX Capital Advisors",
+      "field": "Life-science investing"
+    },
+    {
+      "slug": "rebecca-wolkoff",
+      "name": "Rebecca Wolkoff",
+      "title": "Co-founder and Chief Technology Officer",
+      "org": "ChargeNet Stations",
+      "field": "EV charging"
+    },
+    {
+      "slug": "jonas-lamis",
+      "name": "Jonas Lamis",
+      "title": "Co-founder and COO",
+      "org": "Quantum Art",
+      "field": "Blockchain and digital art"
+    },
+    {
+      "slug": "stacy-mill",
+      "name": "Stacy Mill",
+      "title": "Chief Information Security Officer",
+      "org": "Nashville Electric Service",
+      "field": "Cybersecurity"
+    },
+    {
+      "slug": "eric-reuthe",
+      "name": "Eric Reuthe",
+      "title": "Vice President of Engineering",
+      "org": "Zapata Computing",
+      "field": "Quantum computing"
+    }
+  ]
+}
