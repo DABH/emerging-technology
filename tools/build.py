@@ -67,11 +67,8 @@ def roster_cta(n):
 
 
 def face_count(available):
-    """The face grid lays out 12 faces in 3/4/6 columns and 8 faces in 4/8, so show 12 or 8 when possible."""
-    for n in (12, 8):
-        if available >= n:
-            return n
-    return available
+    """Show everyone with a photo on the homepage, up to a dozen faces."""
+    return min(available, 12)
 
 
 def orgs(speakers, first):

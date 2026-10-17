@@ -83,6 +83,27 @@
       "title": "Vice President of Engineering",
       "org": "Zapata Computing",
       "field": "Quantum computing"
+    },
+    {
+      "slug": "john-dodini",
+      "name": "John Dodini",
+      "title": "Investor",
+      "org": "Brave Capital",
+      "field": "Venture capital"
+    },
+    {
+      "slug": "joe-addiego",
+      "name": "Joe Addiego",
+      "title": "Partner, Alsop Louie Partners",
+      "org": "Brave Capital",
+      "field": "Venture capital"
+    },
+    {
+      "slug": "peter-knapp",
+      "name": "Peter Knapp",
+      "title": "Chief Operating Officer",
+      "org": "LUCI",
+      "field": "Assistive technology"
     }
   ]
 }
