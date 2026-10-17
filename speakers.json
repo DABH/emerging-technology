@@ -1,7 +1,7 @@
 {
   "_help": "One entry per guest speaker. Title and org are as of the talk. Photos: photos/originals/<slug>.jpg, then run tools/photos.sh and python3 tools/build.py. Set \"featured\": false to keep someone off the homepage face grid. org_order lists the organizations to show first on the homepage.",
   "org_order": [
-    "AT&T",
+    "AT&T Business",
     "Roblox",
     "Zapata Computing",
     "Nashville Electric Service",
@@ -10,8 +10,8 @@
     "LUCI",
     "ChargeNet Stations",
     "Quantum Art",
-    "Aravir",
-    "The Wond’ry at Vanderbilt"
+    "The Wond’ry at Vanderbilt",
+    "Variadic Labs"
   ],
   "speakers": [
     {
@@ -24,7 +24,7 @@
     {
       "slug": "kyle-caruso",
       "name": "Kyle Caruso",
-      "title": "Program Coordinator, Entrepreneurship",
+      "title": "Program Coordinator, Entrepreneurship and Innovation",
       "org": "The Wond’ry at Vanderbilt",
       "field": "Entrepreneurship"
     },
@@ -38,23 +38,23 @@
     {
       "slug": "jason-lee",
       "name": "Jason Lee",
-      "title": "Chief Technology Officer",
-      "org": "Aravir",
-      "field": "Space technology"
+      "title": "",
+      "org": "Variadic Labs",
+      "field": "Blockchain"
     },
     {
       "slug": "bryan-pettus",
       "name": "Bryan Pettus",
       "title": "Director of Strategy and Innovation",
-      "org": "AT&T",
-      "field": "Telecommunications"
+      "org": "AT&T Business",
+      "field": "IoT and 5G"
     },
     {
       "slug": "joshua-trantum",
       "name": "Joshua Trantum",
       "title": "President and Chief Investment Officer",
       "org": "CUREX Capital Advisors",
-      "field": "Life-science investing"
+      "field": "Life sciences"
     },
     {
       "slug": "rebecca-wolkoff",
@@ -68,12 +68,12 @@
       "name": "Jonas Lamis",
       "title": "Co-founder and COO",
       "org": "Quantum Art",
-      "field": "Blockchain and digital art"
+      "field": "Blockchain and Web3"
     },
     {
       "slug": "stacy-mill",
       "name": "Stacy Mill",
-      "title": "Chief Information Security Officer",
+      "title": "VP of IT and Chief Information Security Officer",
       "org": "Nashville Electric Service",
       "field": "Cybersecurity"
     },
