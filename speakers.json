@@ -12,7 +12,7 @@
     "ChargeNet Stations",
     "Quantum Art",
     "The Wond’ry at Vanderbilt",
-    "Variadic Labs"
+    "Aravir"
   ],
   "speakers": [
     {
@@ -39,8 +39,8 @@
     {
       "slug": "jason-lee",
       "name": "Jason Lee",
-      "title": "",
-      "org": "Variadic Labs",
+      "title": "Chief Technology Officer",
+      "org": "Aravir",
       "field": "Blockchain"
     },
     {
