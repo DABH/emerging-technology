@@ -67,8 +67,8 @@ def roster_cta(n):
 
 
 def face_count(available):
-    """Show everyone with a photo on the homepage, up to a dozen faces."""
-    return min(available, 12)
+    """Show everyone with a photo on the homepage, up to 14 faces (two rows of 7)."""
+    return min(available, 14)
 
 
 def orgs(speakers, first):

@@ -236,7 +236,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: var(--ink);
 }
 .faces-head a:hover { text-decoration: underline; }
-/* 12 faces fill 3, 4 or 6 columns; 8 faces fill 4 or a single row of 8 */
+/* 12 faces fill 3, 4 or 6 columns; 13–14 fill two rows of 7 on wide screens; 8 faces fill 4 or a single row of 8 */
 .face-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -247,6 +247,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 @media (min-width: 1000px) {
   .face-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 22px 14px; }
   .face-grid[data-count="8"] { grid-template-columns: repeat(8, minmax(0, 1fr)); }
+  .face-grid[data-count="13"], .face-grid[data-count="14"] { grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 20px 12px; }
 }
 .face { display: grid; gap: 8px; align-content: start; text-decoration: none; min-width: 0; }
 .face img, .card-photo img {

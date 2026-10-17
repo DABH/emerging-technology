@@ -6,6 +6,7 @@
     "Zapata Computing",
     "Nashville Electric Service",
     "Brave Capital",
+    "Alsop Louie Partners",
     "CUREX Capital Advisors",
     "LUCI",
     "ChargeNet Stations",
@@ -45,7 +46,7 @@
     {
       "slug": "bryan-pettus",
       "name": "Bryan Pettus",
-      "title": "Director of Strategy and Innovation",
+      "title": "Vice President",
       "org": "AT&T Business",
       "field": "IoT and 5G"
     },
@@ -87,15 +88,15 @@
     {
       "slug": "john-dodini",
       "name": "John Dodini",
-      "title": "Investor",
+      "title": "Principal",
       "org": "Brave Capital",
       "field": "Venture capital"
     },
     {
       "slug": "joe-addiego",
       "name": "Joe Addiego",
-      "title": "Partner, Alsop Louie Partners",
-      "org": "Brave Capital",
+      "title": "Partner",
+      "org": "Alsop Louie Partners",
       "field": "Venture capital"
     },
     {
@@ -104,6 +105,13 @@
       "title": "Chief Operating Officer",
       "org": "LUCI",
       "field": "Assistive technology"
+    },
+    {
+      "slug": "david-baszucki",
+      "name": "David Baszucki",
+      "title": "Founder and CEO",
+      "org": "Roblox",
+      "field": "Gaming"
     }
   ]
 }
