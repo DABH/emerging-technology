@@ -428,6 +428,30 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); padding-block: 32px 40px; }
+/* Funding acknowledgment: logo beside one sentence, above the footer row */
+.funding {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 24px;
+  padding-bottom: 26px;
+  margin-bottom: 26px;
+  border-bottom: 1px solid var(--line);
+  font: 400 0.9375rem/1.55 var(--f-body);
+  color: var(--ink-2);
+}
+.funding-logo { display: inline-flex; flex: none; }
+.funding-logo img { display: block; height: 48px; width: auto; }
+.funding p { margin: 0; max-width: 72ch; }
+.funding a { color: var(--ink); }
+/* The wordmark's gray text is unreadable on dark paper, so dark themes swap in a light-text copy */
+.funding-logo .logo-dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .funding-logo .logo-light { display: none; }
+  :root:not([data-theme="light"]) .funding-logo .logo-dark { display: block; }
+}
+:root[data-theme="dark"] .funding-logo .logo-light { display: none; }
+:root[data-theme="dark"] .funding-logo .logo-dark { display: block; }
 .footer-row {
   display: flex;
   flex-wrap: wrap;
